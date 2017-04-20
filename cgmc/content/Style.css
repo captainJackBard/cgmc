@@ -1,0 +1,212 @@
+body {
+	max-width: 1370px;
+	margin: 0 auto;
+}
+
+#container {
+	background-color: white;
+	width: 98%;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	margin: 2px;
+}
+
+#header {	
+	width: 100%;
+}
+
+.header-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+#cgmc_logo {
+	width: 200px;
+	height: 50px;
+	margin-right: 32px;
+}
+
+#button{
+	position: relative;
+	left: 46%;
+}
+
+#nav-container{
+	position: relative;
+	bottom: 20px;
+	right: 60px;
+}
+
+#contact {
+	color: black;
+	font-size: 25px;
+	font-family: Times New Roman;
+	position: relative;
+}
+
+.form-container {
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.form-container .contact-form{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+#form_2 .form-label {
+	width: 100px;
+	display: inline-block;
+}
+
+
+table#payslip{
+	width:500px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+#payslip td {
+	padding: 0 8px 0 8px;
+}
+
+#paystub-container {
+	position: absolute;
+	left: 35%;
+	margin-top: 8px;
+}
+
+#paystub-container button {
+	margin-top: 8px;
+}
+/******************** Login Page **************************/
+.error-container {
+	border: 1px solid red;
+	background-color: rgb(255, 176, 176);
+	width: 240px;
+	margin: 0 auto;	
+	display: none;
+}
+
+.contact-form {
+	margin-top: 24px;
+}
+
+.center-block  {
+	float: none;
+	margin: 0 auto;
+	display: block;
+}
+	
+
+/********************** Employee List Page *******************************/
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding-bottom: 10px;
+}
+
+/********************** DTR PAGE *******************************/
+
+.time-in,
+.time-out {
+	display: inline-block;
+	width: 126px;
+	margin-left: 8px;
+}
+
+.cash-advance,
+.overtime,
+.late {
+	width: 100px;
+}
+
+/********************** Payslip Page *******************************/
+
+@media print {
+		button{
+			display: none;
+		}
+		
+		.button-column{
+			display: none;
+		}
+		
+		.back-button{
+			display: none;
+		}
+		
+		#print-button{
+			display: none;
+		}
+		
+		
+#paystub-container {
+	position:  unset;
+}
+
+	#paystub-container button {
+		display: none
+	}
+}
+
+.option {
+	width: 400px;
+}
+
+h3,h4{
+	color:#ffffff;
+}
+
+b{
+	color:#ffffff;
+}
+
+label > b#address{
+	font-size: 13px;
+}
+
+.table-condensed > tbody > tr > td{
+	vertical-align: middle;
+}
+
+.table-condensed > thead > tr > th{
+	vertical-align: middle;
+}
+
+th{
+	text-align: center;
+}
+
+.table > tbody > tr > th{
+	vertical-align: middle;
+	width: 110px;
+	height: 70px;
+}
+
+.table-condensed > tbody > tr > td.option{
+	width: 350px;
+}
+
+.table-condensed > tbody > tr > td#name{
+	width: 250px;
+}
+
+.table-condensed > tbody > tr > td#position{
+	width: 250px;
+}
+
+.table-condensed > tbody > tr > td#picture{
+	width: 250px;
+}
+
+.well-sm#sample {
+	background-color:transparent;
+}
